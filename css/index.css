@@ -1,0 +1,88 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+html{
+	/* This image will be displayed fullscreen */
+	background:url('../images/3.png') no-repeat center center;
+
+	/* Ensure the html element always takes up the full height of the browser window */
+	min-height:100%;
+
+	/* The Magic */
+	background-size:cover;
+}
+
+body{
+	/* Workaround for some mobile browsers */
+	min-height:100%;
+	padding-top: 70px;
+	background:transparent;
+}
+
+.brand {
+	font-size: 3em;
+	color: #FFFFFF;
+}
+
+.brand:hover, .brand:focus {
+	font-size: 3em;
+	color: #ff5722;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.brand:active {
+	font-size: 3em;
+	color: #ff5722;
+	text-decoration: none;
+}
+
+
+.navbar-fixed-top {
+	position: absolute;
+	text-align: center;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.about {
+	float: left;
+	padding: 20px 15px;
+	text-align: center;
+	background-color: transparent;
+	opacity: 0.95;
+	color: #FFFFFF;
+	text-align: left;
+	z-index: 1;
+}
+
+.heading {
+	font-size: 2em;
+	width: 100%;
+	text-align: center;
+
+}
+
+.imageDiv {
+	z-index: 0;
+}
+
+.image {
+	width: 260px;
+	display : block;
+    margin : auto;
+}
+
+@media(min-width: 992px) {
+	.container {
+		padding-top: 100px;
+	}
+	.image {
+		width: 100%;
+	}
+	.heading {
+		font-size: 3em;
+		text-align: left;
+	}
+}

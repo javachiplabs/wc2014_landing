@@ -86,3 +86,20 @@ body{
 		text-align: left;
 	}
 }
+
+.button {
+	padding: 18px;
+	background-color: #000000;
+	border: 2px solid #ADAEA7;
+	border-radius: 10px;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.link {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: underline;
+	margin-left: 10px;
+}
